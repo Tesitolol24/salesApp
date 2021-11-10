@@ -1,10 +1,10 @@
 class planUsuario{
     constructor(precio, portafolio, tecnologia, estratoVivienda, ciudad){
-        this.precio = precio;
-        this.portafolio = portafolio;
-        this.tecnologia = tecnologia;
-        this.estratoVivienda = estratoVivienda;
-        this.ciudad = ciudad;
+        this._precio = precio;
+        this._portafolio = portafolio;
+        this._tecnologia = tecnologia;
+        this._estratoVivienda = estratoVivienda;
+        this._ciudad = ciudad;
     }
 
     getPrecio(){
